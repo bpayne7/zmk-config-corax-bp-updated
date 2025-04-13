@@ -1,3 +1,4 @@
+name: corax-bp-updated
 build:
   settings:
     board_root: .
