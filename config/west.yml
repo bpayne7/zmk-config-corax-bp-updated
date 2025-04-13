@@ -4,10 +4,15 @@ manifest:
       url-base: https://github.com/zmkfirmware
     # Additional modules containing boards/shields/custom code can be listed here as well
     # See https://docs.zephyrproject.org/3.2.0/develop/west/manifest.html#projects
+    - name: bpayne7
+      url-base: https://github.com/bpayne7/
   projects:
     - name: zmk
       remote: zmkfirmware
       revision: main
       import: app/west.yml
+    - name: zmk-config-corax-bp-updated
+      remote: bpayne7
+      revision: main
   self:
     path: config
