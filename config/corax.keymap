@@ -121,8 +121,8 @@
             bindings = <
                          &kp N1  &kp N2  &kp N3    &kp N4          &kp N5                                             &kp N6         &kp N7    &kp N8     &kp N9   &kp N0
          &kp TAB         &kp Q   &kp W   &kp F     &kp P           &kp B                                              &kp J          &kp L     &kp U      &kp Y    &kp SEMICOLON  &kp BACKSLASH
-&kp ESC  &kp LCTRL       &kp A   &kp R   &kp S     &kp T           &kp G                                              &kp M          &kp N     &kp E      &kp I    &kp O          &kp BACKSPACE   &kp ENTER
-         &mt LSHFT LBRC  &kp Z   &kp X   &kp C     &kp D           &kp V            &kp C_MUTE         &kp C_PP       &kp K          &kp H     &kp COMMA  &kp DOT  &kp DEL        &mt RSHFT RBRC
+&kp ESC  &mt LSHFT LBRC  &kp A   &kp R   &kp S     &kp T           &kp G                                              &kp M          &kp N     &kp E      &kp I    &kp O          &kp BACKSPACE   &kp ENTER
+         &kp LCTRL       &kp Z   &kp X   &kp C     &kp D           &kp V            &kp C_MUTE         &kp C_PP       &kp K          &kp H     &kp COMMA  &kp DOT  &kp DEL        &mt RSHFT RBRC
                                          &kp LGUI  &mt LALT LC(Z)  &lthp SYM SPACE  &mt LG(V) LC(C)    &kp BACKSPACE  &lt NAV SPACE  &kp RALT  &kp RGUI
             >;
 
