@@ -160,11 +160,11 @@
         sym_layer {
             display-name = "Symbols";
             bindings = <
-                &kp F1  &kp F2     &kp F3     &kp F4     &kp F5                             &kp F6          &kp F7          &kp F8           &kp F9     &kp F10
-        &trans  &none   &kp BSLH   &kp PRCNT  &kp DLLR   &kp RA(LS(S))                      &kp PIPE        &kp UP_ARROW    &kp UNDER        &kp SLASH  &kp SQT  &kp F11
-&trans  &trans  &none   &kp LPAR   &kp RPAR   &kp COLON  &asc_arr                           &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW  &kp LBKT   &kp RBKT    &kp F12  &trans
-        &trans  &none   &ud_grave  &kp AT     &kp AMPS   &kp RC(RA(F14))  &trans    &trans  &none           &kp HASH        &kp QMARK        &kp EXCL   &kp QMARK      &trans
-                                   &trans     &trans     &trans           &trans    &trans  &kp LGUI        &trans          &trans
+                &kp F1  &kp F2     &kp F3     &kp F4     &kp F5                             &kp F6          &kp F7           &kp F8           &kp F9        &kp F10
+        &trans  &none   &kp BSLH   &kp PRCNT  &kp DLLR   &kp RA(LS(S))                      &kp PIPE        &kp UP_ARROW     &kp UNDER        &kp SLASH     &kp SQT       &kp F11
+&trans  &trans  &none   &kp LPAR   &kp RPAR   &kp COLON  &asc_arr                           &kp LEFT_ARROW  &kp DOWN_ARROW   &kp RIGHT_ARROW  &kp LBKT      &kp RBKT      &kp K_MUTE      &kp F12 
+        &trans  &none   &ud_grave  &kp AT     &kp AMPS   &kp RC(RA(F14))  &trans    &trans  &none           &kp HASH         &kp EXCLAMATION  &kp QUESTION  &kp C_VOL_DN  &kp C_VOLUME_UP
+                                   &trans     &trans     &trans           &trans    &trans  &kp LGUI        &kp C_PLAY_PAUSE &trans
             >;
 
             sensor-bindings = <&inc_dec_kp C_VOL_DN C_VOL_UP &inc_dec_kp PG_DN PG_UP>;
@@ -175,10 +175,10 @@
         nav_layer {
             display-name = "Num/Nav";
             bindings = <
-                &kp F1     &kp F2  &kp F3  &kp F4          &kp F5                         &kp F6           &kp F7        &kp F8     &kp F9     &kp F10
-        &trans  &kp MINUS  &kp N7  &kp N8  &kp N9          &kp STAR                       &kp INS          &kp UP_ARROW  &kp END    &kp PSCRN  &none     &kp C_VOLUME_UP
-&trans  &trans  &kp DOT    &kp N1  &kp N2  &kp N3          &kp EQUAL                      &kp LEFT         &kp DOWN      &kp RIGHT  &kp HOME   &kp SEMI  &trans            &trans
-        &trans  &ud_tilde  &kp N4  &kp N5  &kp N6          &kp PLUS     &trans    &trans  &kp PAUSE_BREAK  &kp PG_DN     &kp PG_UP  &none      &trans    &kp C_VOL_DN
+                &kp F1     &kp F2  &kp F3  &kp F4          &kp F5                         &kp F6           &kp F7        &kp F8     &kp F9        &kp F10
+        &trans  &kp MINUS  &kp N7  &kp N8  &kp N9          &kp STAR                       &kp INS          &kp UP_ARROW  &kp END    &kp PSCRN     &none         &kp F11
+&trans  &trans  &kp DOT    &kp N1  &kp N2  &kp N3          &kp EQUAL                      &kp LEFT         &kp DOWN      &kp RIGHT  &kp HOME      &kp SEMI      &kp C_MUTE    &kp F12
+        &trans  &ud_tilde  &kp N4  &kp N5  &kp N6          &kp PLUS     &trans    &trans  &kp PAUSE_BREAK  &kp PG_DN     &kp PG_UP  &kp QUESTION  &kp C_VOL_DN  &kp C_VOL_UP
                                    &trans  &mt LALT MINUS  &mt LGUI N0  &trans    &trans  &trans           &trans        &trans
             >;
 
